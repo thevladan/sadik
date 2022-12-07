@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/bg.css">
+    <link rel="stylesheet" href="/src/css/form.css">
+    <link rel="stylesheet" href="/src/css/modal.css">
+    <title>Главная</title>
+</head>
+
+<body>
+
+    <nav class="container navision">
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img class="navision__img" src="./src/image/Logo.svg" alt="logo">
+        <div class="navision__menu nav-menu">
+            <ul class="navision__list">
+                <li class="navision__item">
+                    <a href="about_us.html">О нас</a>
+                    <span class="menu__arrow arrow"></span>
+                    <ul class="subnav">
+                        <li><a href="adventage.html">Наши<br> преимущества</a></li>
+                    </ul>
+                </li>
+                <li class="navision__item">
+                    <a href="shedulle.html">Расписание</a>
+                    <span class="menu__arrow arrow"></span>
+                    <ul class="subnav">
+                        <li>
+                            <a href="adlessons.html">Дополнительное <br> образование</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navision__item">
+                    <a href="contacts.html">Контакты</a>
+                </li>
+                <li class="navision__item">
+                    <a href="gallery.html">Галерея</a>
+                </li>
+                <li class="navision__item">
+                    <a href="price.html">Прайс</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container main">
+        <h1 class="main__title">Ваши дети - наша забота</h1>
+        <p>Сайт создан для родителей и будущих родителей который хотят чтобы их ребенок <br> развивался в теплой и
+            дружной атмосфере, а вы могли в любой момент узнать <br> любую нужную информацию: от контактов до питания.
+            Задать вопрос руководству <br> или посмотреть галерею.</p>
+            <button class="btn  btn--red  btn--mb" type="button" data-modal="contact-modal">Записаться на экскурсию</button>
+
+        <div class="area">
+            <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <div class="modal" id="contact-modal">
+        <div class="modal__content  modal__content--contact">
+            <button class="modal__close" type="button">
+                <img src="src/image/icons/close.svg" alt="Закрыть">
+            </button>
+    
+            <form class="form" action="/" method="post">
+                <div class="form__group  form__group--md">
+                    <input class="form__control" type="text" placeholder="Ваше имя">
+                    <span class="form__line"></span>
+                </div>
+    
+                <div class="form__group  form__group--md">
+                    <input class="form__control" type="email" placeholder="Ваш e-mail">
+                    <span class="form__line"></span>
+                </div>
+    
+                <div class="form__group  form__group--md">
+                    <textarea class="form__control  form__control--textarea" placeholder="Текст сообщения"></textarea>
+                    <span class="form__line"></span>
+                </div>
+    
+                <div class="form__footer">
+                    <div class="form__group  form__group--md">
+                        <button class="btn  btn--red  btn--rounded  btn--sm" type="submit">Отправить</button>
+                    </div>
+                </div>
+            </form>
+    
+            <ul class="modal__footer">
+                <li>
+                    e-mail: <a href="mailto:info@mywebsite.ru">info@mywebsite.ru</a>
+                </li>
+                <li>
+                    тел: <a href="tel:+94323285622">+943-232-856-22</a>
+                </li>
+            </ul>
+        </div><!-- /.modal__content -->
+    </div><!-- /.modal -->
+    
+
+    <footer class="footer">
+        <p>&copy; Все права защищены </p>
+        <div class="footer__copy">
+            <img class="footer__img" src="/src/image/icons/whatsup.svg" alt="whatsup">
+            <img class="footer__img" src="/src/image/icons/instagram.svg" alt="instagram">
+            <img class="footer__img" src="/src/image/icons/telegram.svg" alt="telegram">
+        </div>
+    </footer>
+
+    <script src="/src/js/burger.js"></script>
+    <script src="/src/js/mobile.js"></script>
+    <script src="/src/js/modal.js"></script>
+</body>
+
+</html>
