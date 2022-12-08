@@ -763,7 +763,7 @@ body.touch .arrow {
 		-ms-grid-columns: 1fr 15px 1fr 15px 1fr 15px 1fr;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-gap: 15px;
-		overflow: scroll;
+		overflow: auto;
 }
 @media screen and (max-width: 575px) {
 		.gallery {
