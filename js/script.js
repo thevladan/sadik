@@ -6,7 +6,7 @@ $(document).ready(function () {
 		autoplay: false,
 		speed: 1000,
 		adaptiveHeight: true,
-		centerMode: true,
+		centerMode: false,
 		autoplaySpeed: 800,
 		responsive: [
 			{
