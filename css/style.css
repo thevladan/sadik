@@ -758,12 +758,12 @@ body.touch .arrow {
 
 .slider .slick-arrow.slick-prev {
 		left: 0;
-		background: url("/image/left-chevron.png") 0 0/100% no-repeat;
+		background: url("/image/left-chevron.svg") 0 0/100% no-repeat;
 }
 
 .slider .slick-arrow.slick-next {
 		right: 0;
-		background: url("/image/right-chevron.png") 0 0/100% no-repeat;
+		background: url("/image/right-chevron.svg") 0 0/100% no-repeat;
 }
 
 .slider .slick-arrow.slick-disabled {
